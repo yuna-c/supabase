@@ -1,6 +1,7 @@
 import './App.css';
 import AddData from './components/AddData';
 import FetchData from './components/FetchData';
+import UpdateData from './components/UpdateData';
 
 // 🌞🌞🌞🌞🌞
 // https://supabase.com/
@@ -19,6 +20,7 @@ function App() {
       <h1>supabase</h1>
       <FetchData />
       <AddData />
+      <UpdateData />
     </>
   );
 }
