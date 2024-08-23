@@ -2,6 +2,7 @@ import './App.css';
 import AddData from './components/AddData';
 import FetchData from './components/FetchData';
 import UpdateData from './components/UpdateData';
+import DeleteData from './components/DeleteData';
 
 // 🌞🌞🌞🌞🌞
 // https://supabase.com/
@@ -21,6 +22,7 @@ function App() {
       <FetchData />
       <AddData />
       <UpdateData />
+      <DeleteData />
     </>
   );
 }
