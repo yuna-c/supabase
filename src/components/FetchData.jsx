@@ -9,9 +9,10 @@ const FetchData = () => {
       const { data, error } = await supabase.from('SUPABASE_SAMPLE').select('*');
       if (error) {
         console.log(`error=>`, error);
+      } else {
+        console.log(`data=>`, data);
+        setUsers(data);
       }
-      console.log(data);
-      setUsers(data);
     };
 
     fetchData();

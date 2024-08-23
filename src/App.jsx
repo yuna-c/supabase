@@ -1,4 +1,5 @@
 import './App.css';
+import AddData from './components/AddData';
 import FetchData from './components/FetchData';
 
 // 🌞🌞🌞🌞🌞
@@ -17,6 +18,7 @@ function App() {
     <>
       <h1>supabase</h1>
       <FetchData />
+      <AddData />
     </>
   );
 }
